@@ -1,0 +1,56 @@
+header{
+    background-color: rgb(200, 194, 194);
+    height: 90px;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+    background-color:rgb(53, 151, 211);
+    margin-left: 20px;
+}
+
+/* .intro{
+    height: ;
+} */
+
+p{
+    padding: 40px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+
+div{
+    height: 250px;
+    opacity:.5;
+}
+.blue{
+    background-color: blue;
+}
+
+.light-green{
+    background-color: rgb(121, 236, 121);
+}
+
+.green{
+    background-color: green;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+img{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    height: 50px;
+    width: 50px;
+    margin: 15px;
+}

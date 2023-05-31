@@ -1,0 +1,36 @@
+header{
+    height: 200px;
+    background-color: darkslategray;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    min-height: 100vh;
+    z-index: -1;
+
+}
+
+div{
+    background-color: lightgray;
+}
+
+.one{
+    width: 50px;
+}
+
+.two{
+    width: 90px;;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.blackfooter{
+    height: 100px;
+    min-width: 100vh;
+    background-color: black;
+}
